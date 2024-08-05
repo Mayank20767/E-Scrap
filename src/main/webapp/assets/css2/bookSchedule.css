@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+/* Reset some default styles for better consistency */
+body, h2, hr, label, input, select, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the h2 text */
+.text-center {
+    text-align: center;
+}
+
+/* Style the container */
+.container-fluid {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* Style labels and inputs */
+label {
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+.btn {
+    margin-top:30px;
+    
+}
+
+

@@ -1,0 +1,32 @@
+// Function to handle image upload
+function uploadImage() {
+    var fileInput = document.getElementById('uploadImage');
+    var uploadedImage = fileInput.files[0];
+
+    // Perform any image upload logic here
+
+    // You can customize this part based on your requirements
+    if (uploadedImage) {
+        alert('Image uploaded successfully!');
+        // Hide the current modal
+        $('#exampleModal').modal('hide');
+        // Show the pickup schedule modal
+        $('#pickupModal').modal('show');
+    } else {
+        alert('Please select an image to upload.');
+    }
+}
+
+// Function to handle moving to the next page (scheduling pickup)
+function schedulePickup() {
+    var pickupDate = document.getElementById('pickupDate').value;
+    var pickupTime = document.getElementById('pickupTime').value;
+
+    var confirmationDiv = document.getElementById('confirmation');
+    confirmationDiv.innerHTML = '<p><strong>Pickup Scheduled!</strong></p>';
+    confirmationDiv.innerHTML += '<p>Date: ' + pickupDate + '</p>';
+    confirmationDiv.innerHTML += '<p>Time: ' + pickupTime + '</p>';
+
+    // Optionally, you can hide the pickup modal after scheduling
+    $('#pickupModal').modal('hide');
+}

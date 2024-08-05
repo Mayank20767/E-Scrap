@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+}
+
+/* Main content styles */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+/* Analytics section styles */
+.analyse {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sales, .visits, .searches {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+/* Date-time selection styles */
+.date-time-selection {
+    margin-top: 100px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+label {
+	margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    
+   /* font-size: 10px;*/
+}
+
+button {
+	margin-left: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Style for the select element */
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Style for the options within the select */
+select option {
+    font-size: 14px;
+}
+
+/* Optional: Hover and focus styles for better user experience */
+select:hover, select:focus {
+    border-color: #555;
+}
+
+/* Optional: Style for the arrow icon (caret) */
+select::after {
+    content: '\25BC'; /* Unicode character for a down-pointing triangle or caret */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the caret doesn't interfere with the select functionality */
+}
+
+/* Style for the date input */
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Optional: Hover and focus styles for better user experience */
+input[type="date"]:hover, input[type="date"]:focus {
+    border-color: #555;
+}
+
+/* Optional: Style for the clear button in some browsers */
+/*input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+ Optional: Style for the calendar icon in some browsers 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}*/
+
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    form {
+        flex-direction: column;
+    }
+
+    label, input, select, button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+

@@ -1,0 +1,149 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Boxed wrapper styles */
+.boxed_wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Navbar styles (you may need to customize this based on your Navbar.jsp content) */
+/* Example: */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Breadcrumb area styles */
+.breadcrumb-area {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
+.breadcrumb-area .breadcrumb-area-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.breadcrumb-area .container {
+    position: relative;
+    z-index: 1;
+}
+
+.breadcrumb-area .breadcrumb-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumb-area .breadcrumb-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-area .breadcrumb-menu ul li {
+    margin-right: 10px;
+}
+
+.breadcrumb-area .breadcrumb-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.breadcrumb-area .breadcrumb-menu ul li.active a {
+    color: #ffd700; /* Change the color for the active link */
+}
+
+.breadcrumb-area .title h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Service details area styles */
+.service-details-area {
+    padding: 80px 0;
+}
+
+.service-details-area .signup-content {
+    background-color: #f4f4f4;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-details-area .form-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.service-details-area .form-group {
+    margin-bottom: 20px;
+}
+
+.service-details-area .form-input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.service-details-area .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.service-details-area .button-box {
+    margin-top: 20px;
+}
+
+.service-details-area .btn-one {
+    background-color: #ffd700;
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.service-details-area .btn-one:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.service-details-area .loginhere {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.service-details-area .loginhere a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.service-details-area .loginhere a:hover {
+    text-decoration: underline;
+}

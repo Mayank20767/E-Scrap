@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Form input styles */
+.form-input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-width: 2px;
+    transition: border-color 0.3s; /* Transition for border color change */
+}
+
+/* Form input focus styles */
+.form-input:focus {
+    border-color: #ffd700; /* Change border color on focus */
+    
+    outline: none;
+}
+
+/* Eye icon (password toggle) styles */
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Eye icon color on hover */
+.toggle-password:hover {
+    color: #ffd700;
+    
+}
+
+ @media (max-width: 767px) {
+        .outer-box {
+             
+        }
+	}

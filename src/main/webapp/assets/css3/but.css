@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+.btn-one{
+    margin-top: 20px;
+}
+.form-input{
+    cursor: pointer;
+}
+.form-group input{
+    border-radius: 13px;
+    border-color: #0e8d54;
+    border-width: 2px;
+}

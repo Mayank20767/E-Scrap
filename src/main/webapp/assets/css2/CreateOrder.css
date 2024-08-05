@@ -1,0 +1,181 @@
+
+.container-order {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.container-order h1 {
+    color: #3498db;
+}
+
+.container-order form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-order label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.container-order  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.container-order button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.container-order #confirmation {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #27ae60;
+}
+
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+#imageUploadForm {
+    display: none;
+    margin-top: 20px;
+}
+
+#nextBtn {
+    display: none;
+}
+
+/* Style the Upload-Image & PickUp section */
+
+.container-pickup {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-pickup h1 {
+    color: #3498db;
+}
+
+.container-pickup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-pickup label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.container-pickup  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: bpickup-box;
+}
+
+.container-pickup button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.container-pickup #confirmation {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #27ae60;
+}
+
+/* Style the address-details section */
+.address-details {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* Style the form layout */
+.form-outline {
+    margin-bottom: 15px;
+}
+
+/* Style form labels */
+.form-label {
+    font-weight: bold;
+}
+
+/* Style the form fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the checkbox */
+.form-check {
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+/* Style the order button */
+.btn-light {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Hover effect for the order button */
+.btn-light:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+    border: 1px solid #0056b3; /* Darker blue border on hover */
+}
+
+.upload-image{
+    display: none;
+}
+
+.address-details{
+    display: none;
+}
+
+.back-btn-address, .back-btn{
+    cursor: pointer;
+    cursor: pointer;
+}

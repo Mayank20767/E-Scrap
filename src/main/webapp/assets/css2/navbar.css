@@ -1,0 +1,45 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Left */
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+/* Header Middle */
+.header-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Right */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Sticky Header */
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Right Col (inside Sticky Header) */
+.right-col {
+    display: flex;
+    align-items: center;
+}
